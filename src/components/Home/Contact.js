@@ -23,10 +23,10 @@ const Contact = () => {
     };
 
     return (
-        <section className='contact-img'>
+        <section className='contact-img' id='contact'>
             <div className="container py-5">
                 <div className="d-flex row py-5 align-items-center">
-                    <h5 className='mt-5 pb-3' style={{ color: '#98b3f2' }}>CONTACT ME</h5>
+                    <h5 className='mt-5 pb-3' style={{ color: '#98b3f2' }}>Contact  with  me</h5>
                     <div className="col-sm-12">
                         <form ref={form} onSubmit={sendEmail}>
                             <div className='mb-2'>

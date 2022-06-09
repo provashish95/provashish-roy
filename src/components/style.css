@@ -124,7 +124,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 0px 0px 450px 0px;
 }
+
+
+
 
 .text-color {
     color: #23355F;
@@ -157,7 +161,7 @@
 
 .about-bg {
     background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(174, 204, 240, 1) 100%);
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(6, 70, 165) 100%);
 }
 
 .profile-img {
@@ -184,22 +188,9 @@
 /* About section ............... */
 
 
-.footer-style {
-    background-color: #4e2626;
-}
-
-.footer-text {
-    color: #985c5c;
-}
-
-.icon-style {
-    width: 30px;
-    height: 30px;
-    padding: 4px;
-    border-radius: 50%;
-    font-size: 25px;
-    margin-left: 11px;
-    cursor: pointer;
+.projects-bg {
+    background: rgb(34, 126, 195);
+    background: linear-gradient(0deg, rgba(34, 126, 195, 1) 0%, rgba(164, 111, 232, 1) 85%);
 }
 
 .contact-img {
@@ -207,6 +198,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* border-radius: 321px 0px 0px 0px; */
 }
 
 .input-style {

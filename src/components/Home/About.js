@@ -3,7 +3,7 @@ import profile from '../../images/profile.png';
 
 const About = () => {
     return (
-        <section className='about-bg'>
+        <section id='about'>
             <div className="container py-5">
                 <h2 className='text-center text-color fw-bold my-5'>About Provashish</h2>
                 <div className="row ">

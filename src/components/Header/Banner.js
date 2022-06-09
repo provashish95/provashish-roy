@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <section className='background-img'>
+        <section className='background-img' id='banner'>
             <div className='container py-5'>
                 <div className='py-5'>
                     <h1 className='text-color text-center mt-5 fw-bold'>Provashish Roy</h1>
@@ -18,7 +18,6 @@ const Banner = () => {
                         <a className="mailto" href="mailto:provashishroy95@gmail.com">
                             <span><i className="fa-solid fa-envelope text-color"></i></span>
                         </a>
-
                     </div>
                     <div className='text-center my-5 pb-4'>
                         <a href='mailto:provashishroy95@gmail.com' className='mailto btn-style'>Hire me</a>
