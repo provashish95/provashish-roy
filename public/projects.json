@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Metal Parts World(Full Stack)",
+        "description": "This is a manufacturing website where users can place an order and the user has a dashboard where he/she can cancel those orders, Users can buy a product (with a payment system), Add reviews on this site and see or update his/her profiles. An admin can add or delete products, see and delete all ordered products, Add delivery status, An admin can see or update his/her profiles and he/she can delete a user or make an admin from the user's list on the dashboard. Have a good authentication system and fully responsive",
+        "live": "https://metal-parts-world.web.app/",
+        "githubClient": "https://github.com/provashish95/metal-parts-world",
+        "githubServer": "https://github.com/provashish95/metal-parts-world-server",
+        "tools": "['ReactJs', 'React-bootstrap','React hook form', 'React query', 'json web token', 'Node js', 'MongoDB','Firebase', 'Express js', 'Stripe']",
+        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Books Warehouse(Full Stack)",
+        "description": "This is a warehouse website where logged admin can add, update and delete products, An admin can also add stationery products and admin see his/her all added products. Visited users (without login or registration) can see all products, communicate with us, and have a good blog section . Have a good authentication system and fully responsive",
+        "live": "https://books-warehouse-caee5.web.app/",
+        "githubClient": "https://github.com/provashish95/books-warehouse-",
+        "githubServer": "https://github.com/provashish95/books-warehouse-server",
+        "tools": "['ReactJs', 'React-bootstrap','React hook form', 'json web token', 'Node js', 'MongoDB','Firebase', 'Express js']",
+        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Gym Master",
+        "description": " This is a private service provider website, where users can see all services and book any services by their needed information. Without login or registration no one can book their services, And have good UI. Have a good authentication system and fully responsive",
+        "live": "https://gym-master-c8470.web.app/",
+        "githubClient": "https://github.com/provashish95/gym-master",
+        "githubServer": " ",
+        "tools": "['ReactJs', 'React-bootstrap', 'json web token', 'Node js', 'MongoDB','Firebase', 'Express js']",
+        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+    }
+]

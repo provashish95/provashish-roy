@@ -124,7 +124,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .text-color {
@@ -183,3 +182,29 @@
 }
 
 /* About section ............... */
+
+
+.footer-style {
+    background-color: #4e2626;
+}
+
+.footer-text {
+    color: #985c5c;
+}
+
+.icon-style {
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 50%;
+    font-size: 25px;
+    margin-left: 11px;
+    cursor: pointer;
+}
+
+.footer-img {
+    background-image: url('../images/bg-4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
