@@ -1,14 +1,26 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import img from '../../images/img.jpg';
 
+
 const Contact = () => {
-    const handleButton = (event) => {
-        event.preventDefault();
-        toast.error('Sent your mail')
-        event.target.reset();
-    }
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_hvsmeyu', 'template_0u2ll8o', form.current, 'uXOqf_EF4YDTAl7q_')
+            .then((result) => {
+                console.log(result.text);
+                toast.success('Send message');
+                e.target.reset();
+            }, (error) => {
+                console.log(error.text);
+                toast.error('Send can not message');
+            });
+    };
 
     return (
         <div className="container">
@@ -18,18 +30,19 @@ const Contact = () => {
                     <img src={img} className="img-fluid border rounded-2 shadow-lg" alt="img" />
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 px-5 mt-4 order-1 order-md-2 order-lg-2">
-                    <form onSubmit={handleButton} className='mt-5'>
-                        <div className="mb-3">
-                            <input type="email" name="email" className="w-100 border border-dark form-style   py-2 px-2" id="exampleInputEmail" placeholder='Your Email' required />
-                        </div>
-                        <div className="form-floating mb-3">
-                            <textarea name="description" className="form-style w-100 border border-dark px-2" placeholder="Write Your Message" id="floatingTextarea2" style={{ height: '100px' }} required></textarea>
-                        </div>
-                        <button type="submit" className='btn btn-style w-50 mx-auto d-block mb-5'>Sent</button>
+                    <form ref={form} onSubmit={sendEmail}>
+                        <label>Name</label>
+                        <input type="text" name="user_name" />
+                        <label>Email</label>
+                        <input type="email" name="user_email" />
+                        <label>Message</label>
+                        <textarea name="message" />
+                        <input type="submit" value="Send" />
                     </form>
                     <ToastContainer></ToastContainer>
                 </div>
             </div>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
