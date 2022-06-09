@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './style.css';
+import '../style.css';
 
-const Header = () => {
-
+const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-style py-3  navbar-light ">
             <div className="container">
@@ -16,23 +15,22 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarText">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link fw-bold fs-5 text-white" to="#">Home</Link>
+                            <Link className="nav-link fw-bold fs-6 text-white" to="#">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link fw-bold fs-5 text-white" to="#">About</Link>
+                            <Link className="nav-link fw-bold fs-6 text-white" to="#">About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link fw-bold fs-5 text-white" to="#">Project</Link>
+                            <Link className="nav-link fw-bold fs-6 text-white" to="#">Project</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link fw-bold fs-5 text-white" to="#">Download resume</Link>
+                            <Link className="nav-link fw-bold fs-6 text-white" to="#">Download resume</Link>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </nav>
     );
 };
 
-export default Header;
+export default Navbar;
