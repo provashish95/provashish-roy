@@ -141,7 +141,7 @@
     font-weight: 700;
     padding: 12px 45px;
     border: 1px solid #4458c8;
-    border-radius: 28px 0px 28px 0px;
+    border-radius: 50px 0px 50px 0px;
     background: rgb(98, 149, 235);
     background: linear-gradient(90deg, rgba(98, 149, 235, 1) 0%, rgba(2, 0, 36, 1) 75%);
 }
@@ -202,9 +202,37 @@
     cursor: pointer;
 }
 
-.footer-img {
-    background-image: url('../images/bg-4.jpg');
+.contact-img {
+    background-image: url('../images/contact.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.input-style {
+    width: 50%;
+    padding: 5px 0px;
+    border: 1px solid #1043c8;
+    border-radius: 5px;
+    background-color: #9bb9fb;
+}
+
+
+::placeholder {
+    color: rgb(28, 101, 197);
+    padding-left: 5px;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(28, 101, 197);
+    padding-left: 5px;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(28, 101, 197);
+    padding-left: 5px;
 }

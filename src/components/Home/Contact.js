@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import img from '../../images/img.jpg';
+
 
 
 const Contact = () => {
@@ -23,27 +23,30 @@ const Contact = () => {
     };
 
     return (
-        <div className="container">
-            <h5 className='text-center text-color mb-5'>CONTACT US</h5>
-            <div className="d-flex row py-5 align-items-center">
-                <div className="col-sm-12 col-md-6 col-lg-6  px-5 order-2 order-lg-1 order-md-1 ">
-                    <img src={img} className="img-fluid border rounded-2 shadow-lg" alt="img" />
+        <section className='contact-img'>
+            <div className="container py-5">
+                <div className="d-flex row py-5 align-items-center">
+                    <h5 className='mt-5 pb-3' style={{ color: '#98b3f2' }}>CONTACT ME</h5>
+                    <div className="col-sm-12">
+                        <form ref={form} onSubmit={sendEmail}>
+                            <div className='mb-2'>
+                                <input type="text" name="user_name" className='input-style' placeholder='Enter Your Name' required />
+                            </div>
+                            <div className='mb-2'>
+                                <input type="email" name="user_email" className='input-style' placeholder='Enter Your Email' required />
+                            </div >
+                            <div className='mb-2'>
+                                <textarea rows="6" name="message" className='input-style' placeholder='Write message here..' required />
+                            </div>
+                            <input type='submit' value="Send" className='btn-style' />
+                            {/* <input type="submit" value="Send" /> */}
+                        </form>
+                        <ToastContainer></ToastContainer>
+                    </div>
                 </div>
-                <div className="col-sm-12 col-md-6 col-lg-6 px-5 mt-4 order-1 order-md-2 order-lg-2">
-                    <form ref={form} onSubmit={sendEmail}>
-                        <label>Name</label>
-                        <input type="text" name="user_name" />
-                        <label>Email</label>
-                        <input type="email" name="user_email" />
-                        <label>Message</label>
-                        <textarea name="message" />
-                        <input type="submit" value="Send" />
-                    </form>
-                    <ToastContainer></ToastContainer>
-                </div>
+                <ToastContainer></ToastContainer>
             </div>
-            <ToastContainer></ToastContainer>
-        </div>
+        </section>
     );
 };
 
