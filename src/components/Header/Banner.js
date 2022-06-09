@@ -8,7 +8,7 @@ const Banner = () => {
                     <h1 className='text-color text-center mt-5 fw-bold'>Provashish Roy</h1>
                     <p className='text-color text-center fw-bold'>Engineer | Web Developer</p>
 
-                    <div className='social-link text-center fs-3 '>
+                    <div className='social-link text-center fs-3'>
                         <a href="https://www.linkedin.com/in/provashish/" target="_blank" className='me-2'>
                             <span><i className="fa-brands fa-linkedin text-color"></i></span>
                         </a>
@@ -20,12 +20,9 @@ const Banner = () => {
                         </a>
 
                     </div>
-                    <div className='text-center my-5'>
+                    <div className='text-center my-5 pb-4'>
                         <a href='mailto:provashishroy95@gmail.com' className='mailto btn-style'>Hire me</a>
                     </div>
-
-
-
                 </div>
             </div>
         </section>
