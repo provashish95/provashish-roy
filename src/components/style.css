@@ -225,11 +225,23 @@
 .skills li {
     padding: 5px;
     margin-left: 5px;
-    background-color: #853b3b;
+    background-color: #04839c;
     margin-top: 5px;
     border-radius: 8px;
-
     color: #eeeeef;
+}
+
+.resume-anchor {
+    text-decoration: none;
+    background-color: #04839c;
+    padding: 7px 13px;
+    border-radius: 0px 50px 50px 0px;
+    color: #67f7ff;
+}
+
+.resume-anchor:hover {
+    background-color: #0a9cb9;
+    color: rgb(253, 253, 253);
 }
 
 /* About section ............... */
@@ -242,6 +254,14 @@
 
 .contact-img {
     background-image: url('../images/contact.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 321px 0px 0px 0px; */
+}
+
+.blog-img {
+    background-image: url('../images/white1.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

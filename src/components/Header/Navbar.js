@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-style py-3  navbar-light ">
             <div className="container">
-                <Link to='/' className="navbar-brand fs-3 fw-bold">
+                <Link to='/home' className="navbar-brand fs-3 fw-bold">
                     PROVASHISH
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">

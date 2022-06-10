@@ -1,5 +1,6 @@
 import React from 'react';
 import profile from '../../images/profile.png';
+import pdf from '../../files/provashish_roy_resume.pdf';
 
 const About = () => {
     return (
@@ -12,10 +13,12 @@ const About = () => {
                             <img src={profile} alt="profile" className='img-fluid profile-img' />
                         </div>
                         <h4 className='text-color fw-bold mt-5'>Hello, this is provashish Roy</h4>
-                        <p className='text-color'>Well-trained Web Developer that knows how to create, design and modify web content. Has
-                            experience in analyzing customer needs, working with teams and using software for
-                            manipulating multimedia content. With the capacity to adapt and learn fast. I want to build my
-                            career as a web developer in your company and I am passionate about web development.</p>
+                        <p className='text-color'>
+                            Well-trained Web Developer that knows how to create, design and modify web content.
+                            Provashish has a passion for web development. He is currently working with react.js and node.js.And have the capacity to adapt and learn fast
+                        </p>
+                        <a href={pdf} className='resume-anchor'><i class="fa-solid fa-file-lines me-2"></i>
+                            <small>Click for resume</small></a>
                     </div>
                     <div className="col-sm-6 col-md-6 col-lg-6">
                         <h5 className='text-center text-color fw-bold my-5'>Skills <span style={{ color: '#853b3b' }}>Provashish</span> have</h5>
