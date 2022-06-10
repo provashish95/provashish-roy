@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Loading from './Loading';
 import Project from './Project';
 
 
@@ -12,6 +13,10 @@ const Projects = () => {
                 setProjects(data);
             })
     }, [])
+
+    if (!projects) {
+        return <Loading></Loading>
+    }
 
     return (
         <section id='projects'>

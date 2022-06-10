@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Loading from './Loading';
 
 const ProjectDetails1 = () => {
     const [details, setDetails] = useState({});
@@ -10,6 +11,11 @@ const ProjectDetails1 = () => {
                 setDetails(data[1]);
             })
     }, [])
+
+    if (!details) {
+        return <Loading></Loading>
+    }
+
     return (
         <section className='background-img'>
             <div className="container">
