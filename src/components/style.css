@@ -175,6 +175,40 @@
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
+.project-details-btn {
+    padding: 5px 10px;
+    border: 1px solid #23355F;
+    border-radius: 5px;
+    font-weight: 700;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(98, 149, 235, 1) 87%);
+    color: white;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.project-details-btn:hover {
+    background: rgb(98, 149, 235);
+    background: linear-gradient(90deg, rgba(98, 149, 235, 1) 0%, rgba(2, 0, 36, 1) 75%);
+}
+
+.project-live-btn {
+    padding: 8px 8px;
+    border: 1px solid #23355F;
+    border-radius: 5px;
+    font-weight: 700;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(98, 149, 235, 1) 87%);
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.project-live-btn:hover {
+    background: rgb(98, 149, 235);
+    background: linear-gradient(90deg, rgba(98, 149, 235, 1) 0%, rgba(2, 0, 36, 1) 75%);
+}
+
 .skills li {
     padding: 5px;
     margin-left: 5px;

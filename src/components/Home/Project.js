@@ -25,8 +25,8 @@ const Project = ({ project }) => {
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">{description.slice(0, 100)}...</p>
                     <p className='text-center'>
-                        <a href={live} className="btn btn-primary me-2 mt-1" target='_blank'>Live website</a>
-                        <button onClick={() => navigateToPurchase(id)} className="btn btn-primary mt-1">Details</button>
+                        <a href={live} className="project-live-btn" target='_blank'>Live website</a>
+                        <button onClick={() => navigateToPurchase(id)} className="project-details-btn">Details</button>
                     </p>
                 </div>
             </div>
