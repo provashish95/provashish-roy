@@ -127,6 +127,18 @@
     border-radius: 0px 0px 450px 0px;
 }
 
+.white-img {
+    background-image: url('../images/white.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-inner {
+    border: 10px solid #23355F;
+    border-radius: 50px;
+}
+
 
 
 
@@ -205,6 +217,7 @@
 }
 
 .project-live-btn:hover {
+    color: white;
     background: rgb(98, 149, 235);
     background: linear-gradient(90deg, rgba(98, 149, 235, 1) 0%, rgba(2, 0, 36, 1) 75%);
 }

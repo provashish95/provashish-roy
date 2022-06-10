@@ -6,8 +6,21 @@
         "live": "https://metal-parts-world.web.app/",
         "githubClient": "https://github.com/provashish95/metal-parts-world",
         "githubServer": "https://github.com/provashish95/metal-parts-world-server",
-        "tools": "['ReactJs', 'React-bootstrap','React hook form', 'React query', 'json web token', 'Node js', 'MongoDB','Firebase', 'Express js', 'Stripe']",
-        "img": "https://i.ibb.co/HxyZ81k/metal-parts-world.png"
+        "tools": [
+            "ReactJs",
+            "React-bootstrap",
+            "React hook form",
+            "React query",
+            "json web token",
+            "Node js",
+            "MongoDB",
+            "Firebase",
+            "Express js",
+            "Stripe"
+        ],
+        "img1": "https://i.ibb.co/gg7pwDH/metal1.png",
+        "img2": "https://i.ibb.co/5TH77BC/metal2.png",
+        "img3": "https://i.ibb.co/VpfJWkD/metal3.png"
     },
     {
         "id": 2,
@@ -16,8 +29,19 @@
         "live": "https://books-warehouse-caee5.web.app/",
         "githubClient": "https://github.com/provashish95/books-warehouse-",
         "githubServer": "https://github.com/provashish95/books-warehouse-server",
-        "tools": "['ReactJs', 'React-bootstrap','React hook form', 'json web token', 'Node js', 'MongoDB','Firebase', 'Express js']",
-        "img": "https://i.ibb.co/QvZF76F/books-warehouse.png"
+        "tools": [
+            "ReactJs",
+            "React-bootstrap",
+            "React hook form",
+            "json web token",
+            "Node js",
+            "MongoDB",
+            "Firebase",
+            "Express js"
+        ],
+        "img3": "https://i.ibb.co/4TZwz95/books3.png",
+        "img2": "https://i.ibb.co/XxRZHCS/books2.png",
+        "img1": "https://i.ibb.co/8NhLv79/books1.png"
     },
     {
         "id": 3,
@@ -26,7 +50,17 @@
         "live": "https://gym-master-c8470.web.app/",
         "githubClient": "https://github.com/provashish95/gym-master",
         "githubServer": " ",
-        "tools": "['ReactJs', 'React-bootstrap', 'json web token', 'Node js', 'MongoDB','Firebase', 'Express js']",
-        "img": "https://i.ibb.co/QKFmfGJ/gym-master.png"
+        "tools": [
+            "ReactJs",
+            "React-bootstrap",
+            "json web token",
+            "Node js",
+            "MongoDB",
+            "Firebase",
+            "Express js"
+        ],
+        "img1": "https://i.ibb.co/2nQ7KcW/gym1.png",
+        "img2": "https://i.ibb.co/M5tPTSh/gym2.png",
+        "img3": "https://i.ibb.co/XCz54y9/gym3.png"
     }
 ]
