@@ -11,17 +11,6 @@ const About = () => {
                         <div className='text-center mt-5'>
                             <img src={profile} alt="profile" className='img-fluid profile-img' />
                         </div>
-                        {/* <div className='social-link fs-3 my-4'>
-                            <a href="https://www.linkedin.com/in/provashish/" target="_blank" className='me-2'>
-                                <span><i className="fa-brands fa-linkedin text-color"></i></span>
-                            </a>
-                            <a href="https://github.com/provashish95" target="_blank" className='me-2'>
-                                <span><i className="fa-brands fa-github text-color"></i></span>
-                            </a>
-                            <a className="mailto" href="mailto:provashishroy95@gmail.com">
-                                <span><i className="fa-solid fa-envelope text-color"></i></span>
-                            </a>
-                        </div> */}
                         <h4 className='text-color fw-bold mt-5'>Hello, this is provashish Roy</h4>
                         <p className='text-color'>Well-trained Web Developer that knows how to create, design and modify web content. Has
                             experience in analyzing customer needs, working with teams and using software for
