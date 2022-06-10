@@ -10,7 +10,8 @@ function App() {
     <>
       <Header></Header>
       <Routes>
-        <Route exact path='/' element={<Home></Home>}></Route>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='*' element={<p>404</p>}></Route>
       </Routes>
       <Footer></Footer>
     </>
