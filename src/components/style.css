@@ -135,7 +135,7 @@
 }
 
 .carousel-inner {
-    border: 10px solid #23355F;
+    border: 3px solid #23355F;
     border-radius: 50px;
 }
 
@@ -170,11 +170,6 @@
 
 /* About section ............... */
 
-
-.about-bg {
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(6, 70, 165) 100%);
-}
 
 .profile-img {
     /* border: 1px solid rgb(52, 52, 104); */
@@ -247,25 +242,28 @@
 /* About section ............... */
 
 
-.projects-bg {
-    background: rgb(34, 126, 195);
-    background: linear-gradient(0deg, rgba(34, 126, 195, 1) 0%, rgba(164, 111, 232, 1) 85%);
-}
 
 .contact-img {
     background-image: url('../images/contact.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* border-radius: 321px 0px 0px 0px; */
 }
 
-.blog-img {
-    background-image: url('../images/white1.webp');
+.project-img {
+    background-image: url('../images/bg-3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* border-radius: 321px 0px 0px 0px; */
+    border-radius: 280px 0px 0px 0px;
+}
+
+.blog-img {
+    background-image: url('../images/12.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 280px 0px 0px 0px;
 }
 
 .input-style {

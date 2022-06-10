@@ -2,15 +2,14 @@ import React, { useEffect, useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
 import Loading from './Loading';
 
-const Modal1 = ({ show, setShow }) => {
-
+const Modal3 = ({ show2, setShow2 }) => {
     const [details, setDetails] = useState({});
 
     useEffect(() => {
         fetch('projects.json')
             .then(res => res.json())
             .then(data => {
-                setDetails(data[0]);
+                setDetails(data[2]);
             })
     }, [])
 
@@ -18,12 +17,11 @@ const Modal1 = ({ show, setShow }) => {
         return <Loading></Loading>
     }
 
-    const handleClose = () => setShow(false);
-
+    const handleClose = () => setShow2(false);
     return (
         <>
             <Modal
-                show={show}
+                show={show2}
                 onHide={handleClose}
                 backdrop="static"
                 keyboard={false}
@@ -81,7 +79,6 @@ const Modal1 = ({ show, setShow }) => {
                         <div className='mb-5 mt-3'>
                             <a href={details.live} className="btn btn-outline-info text-color fw-bold me-2 mt-2" target='_blank'><i className="fa-solid fa-desktop"></i> Live website</a>
                             <a href={details.githubClient} className="btn btn-outline-info text-color fw-bold me-2 mt-2" target='_blank'><i className="fa-brands fa-github"></i> GitHub (Client side)</a>
-                            <a href={details.githubServer} className="btn btn-outline-info text-color fw-bold mt-2" target='_blank'> <i className="fa-brands fa-github"></i> GitHub (Server side)</a>
                         </div>
                     </div>
 
@@ -97,8 +94,7 @@ const Modal1 = ({ show, setShow }) => {
             </Modal>
 
         </>
-
     );
 };
 
-export default Modal1;
+export default Modal3;

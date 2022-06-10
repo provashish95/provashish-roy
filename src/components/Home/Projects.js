@@ -19,7 +19,7 @@ const Projects = () => {
     }
 
     return (
-        <section id='projects'>
+        <section id='projects' >
             <div className="container py-5">
                 <h2 className='text-center text-color fw-bold my-5'>Projects</h2>
                 <div className="row">

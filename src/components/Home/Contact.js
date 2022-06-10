@@ -39,7 +39,7 @@ const Contact = () => {
                                 <textarea rows="6" name="message" className='input-style' placeholder='Write message here..' required />
                             </div>
                             <input type='submit' value="Send" className='btn-style' />
-                            {/* <input type="submit" value="Send" /> */}
+
                         </form>
                         <ToastContainer></ToastContainer>
                     </div>
