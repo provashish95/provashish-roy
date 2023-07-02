@@ -173,13 +173,13 @@
 
 .profile-img {
     /* border: 1px solid rgb(52, 52, 104); */
-    border-radius: 50%;
+    border-radius: 5%;
     width: 200px;
     background: rgb(27, 241, 242);
-    background: linear-gradient(90deg, rgba(27, 241, 242, 1) 50%, rgba(2, 0, 36, 1) 77%);
+    /* background: linear-gradient(90deg, rgba(27, 241, 242, 1) 50%, rgba(2, 0, 36, 1) 77%);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); */
 }
 
 .project-details-btn {
