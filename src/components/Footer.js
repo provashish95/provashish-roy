@@ -16,7 +16,7 @@ const Footer = () => {
                 </a>
             </div>
             <div className="text-center mb-5">
-                <p style={{ color: '#437c8f' }}>&copy; Copyright {date} | Provashish Roy</p>
+                <p style={{ color: '#437c8f' }}>&copy; Copyright {date} |shipan</p>
             </div>
         </footer>
     );
