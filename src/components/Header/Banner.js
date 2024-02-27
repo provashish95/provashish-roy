@@ -6,7 +6,7 @@ const Banner = () => {
             <div className='container py-5'>
                 <div className='py-5'>
                     <h1 className='text-color text-center mt-5 fw-bold'>Provashish Roy</h1>
-                    <p className='text-color text-center fw-bold'>Engineer | Web Developer</p>
+                    <p className='text-color text-center fw-bold'>Digital Marketing Executive | Web Developer</p>
 
                     <div className='social-link text-center fs-3'>
                         <a href="https://www.linkedin.com/in/provashish/" target="_blank" className='me-2'>

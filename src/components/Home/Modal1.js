@@ -79,7 +79,7 @@ const Modal1 = ({ show, setShow }) => {
                             </div>
                         </div>
                         <div className='mb-5 mt-3'>
-                            <a href={details.live} className="btn btn-outline-info text-color fw-bold me-2 mt-2" target='_blank'><i className="fa-solid fa-desktop"></i> Live website</a>
+                            {/* <a href={details.live} className="btn btn-outline-info text-color fw-bold me-2 mt-2" target='_blank'><i className="fa-solid fa-desktop"></i> Live website</a> */}
                             <a href={details.githubClient} className="btn btn-outline-info text-color fw-bold me-2 mt-2" target='_blank'><i className="fa-brands fa-github"></i> GitHub (Client side)</a>
                             <a href={details.githubServer} className="btn btn-outline-info text-color fw-bold mt-2" target='_blank'> <i className="fa-brands fa-github"></i> GitHub (Server side)</a>
                         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style.css';
-import pdf from '../../files/provashish_roy_resume.pdf';
+import pdf from '../../files/Provashish-Roy-Resume.pdf';
 import { Link } from 'react-router-dom';
 
 
@@ -27,7 +27,7 @@ const Navbar = () => {
                             <a href='#projects' className="nav-link fw-bold fs-6 text-white" >Project</a>
                         </li>
                         <li className="nav-item">
-                            <a href='#blog' className="nav-link fw-bold fs-6 text-white" >Blogs</a>
+                            <a href='#blog' className="nav-link fw-bold fs-6 text-white" >SEO Experience</a>
                         </li>
                         <li className="nav-item cursor-pointer">
                             <a href='#contact' className="nav-link fw-bold fs-6 text-white">Contact</a>
